@@ -115,3 +115,58 @@ main{
     align-content: center;
     color: var(--Nutmeg);
 }
+@media (max-width:375px) {
+        body {
+        margin: 0%;
+        }
+        main {
+            width: 375px;
+            padding-top: 0%;
+            padding-left: 0%;
+            padding-right: 0%;
+        }
+        .imgreceta {
+            width: 375px;
+            border-radius: 0%;
+        }
+        .namereceta {
+            font-weight: 400;
+            margin-left: 9%;
+        }
+        .description {
+            margin-left: 9%;
+            margin-right: 8%;
+            margin-bottom: 5%;
+        }
+        .sectionone {
+            border-radius: 15px;
+            padding-left: 20px;
+            padding-right: 50px;
+            margin-left: 9%;
+            margin-right: 8%;
+        }
+        .sectionone li{
+            padding-bottom: 5px;
+        }
+        .sectiontwo {
+            margin-top: 5%;
+            margin-left: 9%;
+            margin-right: 8%;
+        }        
+        .sectiontwo li {
+            padding-bottom: 12px;
+        }
+        
+        .sectionthree {
+            margin-left: 9%;
+            margin-right: 8%;
+        }
+        .sectionfour {
+            margin-left: 9%;
+            margin-right: 8%;
+        }
+        
+        .tipo-nutricion p{
+            padding-left: 20%;
+        }
+}
