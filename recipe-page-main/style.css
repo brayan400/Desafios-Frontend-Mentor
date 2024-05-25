@@ -51,8 +51,9 @@ main{
 .preparation-time{
     color: var(--Dark-Raspberry);
 }
-.sectionone li{
+.sectionone ul li::marker{
     padding-bottom: 5px;
+    color: var(--Dark-Raspberry);
 
 }
 .sectiontwo{
@@ -67,8 +68,9 @@ main{
     color: var(--Nutmeg);
     font-size: 20px;
 }
-.sectiontwo li{
+.sectiontwo ul li::marker{
     padding-bottom: 12px;
+    color: var(--Nutmeg);
 }
 .sectionthree{
     font-family: "Outfit", sans-serif;
@@ -82,9 +84,16 @@ main{
     list-style-type: style color;
     font-size: 16px;
 }
+.sectionthree li::marker{
+    color: var(--Nutmeg);
+    font-size: 16px;
+    font-weight:bolder;
+}
 .sectionthree li{
     padding-bottom: 12px;
-    font-size: 16px;
+}
+.sectionthree b{
+    margin-left: 5px;
 }
 .sectionfour{
     font-family: "Outfit", sans-serif;
