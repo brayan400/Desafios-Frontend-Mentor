@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+body{
+    font-family: "Figtree", sans-serif;
+    margin: 0%;
+}
+main{
+    background: var(--Yellow);
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+.carta{
+    background: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 376px;
+    height: 500px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 5px 5px 0px var(--Black);
+}
+.carta:hover{
+    box-shadow: 15px 15px 0px var(--Black);
+    transition: 1s;
+}
+.img1{
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+article{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.tipo-div-one{
+    background: var(--Yellow);
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.fecha{
+    font-size: 16px;
+    font-weight: 300px;
+}
+.titulo{
+    font-size: x-large;
+}
+.text{
+    color: var(--Grey);
+    line-height: 1.625;
+}
+.people{
+    display: flex;
+    align-items: center;
+}
+.img2{
+    width: 30px;
+    margin-right: 12px;
+}
