@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0%;
+}
+main{
+    background-color: var(--Off-Black);
+    height: 100dvh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: var(--Dark-Grey);
+    border-radius: 3%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 520px;
+    width: 360px;
+}
+.content-img{
+    width: 80px;
+    height: 80px;
+    margin-top: 5%;
+}
+img{
+    border-radius: 50%;
+    width: 80px;
+}
+.section-one{
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.name{
+    font-size:x-large;
+    font-weight: normal;
+}
+.city{
+    font-size: 14px;
+    color: var(--Green);
+}
+.job{
+    font-size: 14px;
+    margin-top: 7%;
+
+}
+.section-two{
+    color: var(--White);
+}
+.redes{
+    background-color: var(--Grey);
+    border-radius: 6px;
+    padding: 9px;
+    margin: 15px;
+    width: 290px;
+    font-weight: bolder;
+}
+.redes:hover{
+    background-color: var(--Green);
+    cursor: pointer;
+    color: var(--Dark-Grey);
+    font-weight: bolder;
+}
+@media (max-width: 375px) {
+    body {
+            font-family: "Inter", sans-serif;
+            margin: 0%;
+        }
+    
+        main {
+            background-color: var(--Off-Black);
+            height: 100dvh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    section {
+            background-color: var(--Dark-Grey);
+            border-radius: 3%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 500px;
+            width: 310px;
+        }
+                .section-two {
+                    color: var(--White);
+                }
+        
+                .redes {
+                    background-color: var(--Grey);
+                    border-radius: 6px;
+                    padding: 9px;
+                    margin: 15px;
+                    width: 250px;
+                    font-weight: bolder;
+                }
+        
+                .redes:hover {
+                    background-color: var(--Green);
+                    cursor: pointer;
+                    color: var(--Dark-Grey);
+                    font-weight: bolder;
+                }
+}
