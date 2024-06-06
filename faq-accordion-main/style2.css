@@ -1,0 +1,29 @@
+/* style.css */
+
+.acordeon {
+    margin: 20px;
+}
+
+.desplegable {
+    margin-bottom: 20px;
+}
+
+.titulo-section {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.titulo-section:hover {
+    background-color: #e0e0e0;
+}
+
+.contenedor-texto {
+    padding: 10px;
+    display: none;
+}
+
+.desplegable.active .contenedor-texto {
+    display: block;
+}

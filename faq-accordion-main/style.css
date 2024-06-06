@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --pink: hsl(281, 83%, 54%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:var(--Light-pink);
+    font-family: "Work Sans", sans-serif;
+    margin: 0%;
+}
+main{
+    background-image: url(/assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: var(--White);
+    width: 540px;
+    padding: 1.5%;
+    border-radius: 12px;
+}
+.section-header{
+    display: flex;
+    align-items: center;
+}
+.section-header img{
+    width: 28px;
+}
+.section-header h1{
+    color: var(--Dark-purple);
+    font-size: 45px;
+}
+.acordeon{
+    margin-top: 5%;
+    font-size: 16px;
+}
+.titulo-section{
+    background-image: url(/assets/images/icon-plus.svg);
+    background-repeat: no-repeat;
+    background-position:right;
+    color: var(--Dark-purple);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+}
+.titulo-section:hover{
+    color: var(--pink);
+}
+.contenedor-texto{
+    color: var(--Grayish-purple);
+    font-size: 16px;
+    display: none;
+}
+.desplegable.active .contenedor-texto{
+    display: block;
+}
