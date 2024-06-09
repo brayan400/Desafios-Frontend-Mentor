@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --cyan: hsl(158, 36%, 16%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Cream);
+    height: 100vh;
+}
+section{
+    display: flex;
+    background: var(--White);
+    border-radius: 12px;
+}
+.imgPerfume{
+    height: 450px;
+    border-radius: 12px 0px 0px 12px;
+}
+.descripcion-perfume{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.categoria{
+    font-family: "Montserrat", sans-serif;
+    color: var(--Dark-grayish-blue);
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+.contenedor-nombre{
+    width: 210px;
+}
+.nombre{
+    font-family: "Fraunces", serif;
+    font-size: xx-large;
+    color: var(--Very-dark-blue);
+}
+.contenedor-description{
+    width: 260px;
+}
+.description{
+    font-family: "Montserrat", sans-serif;
+    color: var(--Dark-grayish-blue);
+    line-height: 1.6;
+}
+.contenedor-precios{
+    display: flex;
+    align-items: center;
+}
+.precio-oferta{
+    font-family: "Fraunces", serif;
+    color: var(--Dark-cyan);
+    font-size: xx-large;
+    margin-right: 20px;
+}
+.precio{
+    font-family: "Montserrat", sans-serif;
+    color: var(--Dark-grayish-blue);
+}
+.contenedor-compra{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: var(--Dark-cyan);
+    padding: 20px;
+    border-radius: 8px;
+    width: 240px;
+}
+.contenedor-compra:hover{
+    background: var(--cyan);
+    cursor: pointer;
+}
+.boton-compra{
+    font-family: "Montserrat", sans-serif;
+    color: var(--White);
+    margin-left: 10px;
+    font-weight:bold;
+}
